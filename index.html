@@ -1,0 +1,36 @@
+---
+layout: default
+title: 黑色一眸——黑色的不是眼睛而是眼圈
+---
+
+<div id="home">
+  <div class="index-show">
+    <div class="rounded1"></div>
+    <div class="rounded2"></div>
+    <div class="rounded3"></div>
+    <div class="rounded4"></div>
+    <div class="rounded5"></div>
+    <div class="rounded6"></div>
+    <p class="site-name"> 黑传说 </p>
+    <p class="slogan">——乌抵天明</p>
+    <img src="static/images/atlas.png">
+    <blockquote>
+      <p><b>作者：黑传说</b></p> 
+      
+      <p>世事如棋局局新</p>
+      <p>君子终日乾乾，夕惕若，厉无咎。</p>
+      <p>龙能大能小，能升能隐；大则兴云吐雾，小则隐介藏形；</p>
+      <p>男子汉大丈夫，言而有信，行必有果！</p>
+      <p>生于忧患死于安乐。</p> 
+      <p>天行健,君子以自强不息，地势坤,君子以厚德载物。</p>
+      <p>宽心，坚强！</p>
+    </blockquote>
+  </div>
+  <div class="post">
+    <ul class="nav-post">
+      {% for post in site.posts %}
+      <li><span>{{ post.date | date: '%Y-%m-%d' }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
