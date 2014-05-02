@@ -1,5 +1,40 @@
 /*****************************************************************************/
 /*
+/* 文内样式
+/*
+/*****************************************************************************/
+
+/* :::: 文章多屏显示 :::: */
+
+.post {
+        overflow-y: hidden;
+        overflow-x: auto;
+        
+        height: 500px;
+        
+        column-width: 600px;
+        -webkit-column-width: 600px;
+        -moz-column-width: 600px;
+        
+        column-rule: 10px solid white;
+	-moz-column-rule: 10px solid white;
+	-webkit-column-rule: 10px solid white;
+        
+        column-gap: 60px;
+	-moz-column-gap: 60px;
+	-webkit-column-gap: 60px;
+}
+
+@media all and (max-width: 50em) {
+    .post {
+        height: 300px;
+        
+
+    }
+}
+
+/*****************************************************************************/
+/*
 /* 首页设定
 /*
 /*****************************************************************************/
@@ -32,7 +67,38 @@
     }
 }
 
+.index-maxim {
+      background: #BBBBFF;
+    font-size: 90%;
 
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin: 1em 0;
+
+    height: 100px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    
+    column-width: 20px;
+    -webkit-column-width: 20px;
+    -moz-column-width: 20px;
+
+    column-rule: 1px solid #dcdcdc;
+    -moz-column-rule: 1px solid #dcdcdc;
+    -webkit-column-rule: 1px solid #dcdcdc;
+
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    
+    direction:rtl;
+    unicode-bidi:bidi-override;
+    word-wrap: break-word;
+}
+
+.index-maxim:hover {
+    background: #DEDFFF;
+}
 
 .rounded1 {
     width: 250px;
