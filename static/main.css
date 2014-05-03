@@ -23,6 +23,9 @@
         column-gap: 60px;
 	-moz-column-gap: 60px;
 	-webkit-column-gap: 60px;
+	
+	       word-wrap: break-word;      /*英文断开字母*/
+
 }
 
 @media all and (max-width: 50em) {
