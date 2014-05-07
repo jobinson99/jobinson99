@@ -6,11 +6,11 @@
 
 /* :::: 文章多屏显示 :::: */
 
-.post {
+.site {
         overflow-y: hidden;
         overflow-x: auto;
         
-        height: 500px;
+        height: 550px;
         
         column-width: 600px;
         -webkit-column-width: 600px;
@@ -29,7 +29,7 @@
 }
 
 @media all and (max-width: 50em) {
-    .post {
+    .site {
         height: 300px;
         
 
