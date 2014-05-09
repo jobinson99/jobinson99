@@ -6,7 +6,7 @@
 
 /* :::: 文章多屏显示 :::: */
 
-.site {
+.post {
         overflow-y: hidden;
         overflow-x: auto;
         
@@ -29,7 +29,7 @@
 }
 
 @media all and (max-width: 50em) {
-    .site {
+    .post {
         height: 300px;
         
 
