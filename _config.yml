@@ -1,8 +1,19 @@
-name: 黑色一眸——黑色的不是眼睛而是眼圈
-markdown: redcarpet
-redcarpet:
-    extensions: [tables, underline, strikethrough]
-pygments: true
+# Site settings
+title: 黑色一眸——黑色的不是眼睛而是眼圈
+email: gmail for jobinson99
+description: "黑传说的私人日志，非亲友请勿关注，谢谢"
+baseurl: ""
+url: "http://jobinson99.tk"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+relative_permalinks: true
+
+future: true
+
+# 语法高亮
+highlighter: pygments
 
 include:
 - .nojekyll

@@ -3,26 +3,32 @@ layout: default
 ---
 
 <div class="post">
-<header>
-  <h1>{{ page.title }}</h1>
-
-  {% if page.description %}<p class="abstract"><b>摘要：</b><br/>{{page.description}}</p>{% endif %}
-
-  <p class="meta">
-    {% if page.categories.size != 0 %}
-<span class="categories">
-归类：
-  {% for cat in page.categories %}
-  <a href="/category/categories.html#{{ cat }}-ref">【{{ cat }}】</a>
-  {% endfor %}
-</span>
-{% endif %}
   
-  创建时间：{{ page.date | date: '%Y-%m-%d' }}</p>
-</header>
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+    <p class="abstract"><b>摘要：</b><br/>{{page.description}}</p>
+    {% endif %}
+
+    <p class="meta">
+      {% if page.categories.size != 0 %}
+      <span class="categories">归类：
+        {% for cat in page.categories %}
+        <a href="/category/categories.html#{{ cat }}-ref">【{{ cat }}】</a>
+        {% endfor %}
+      </span>
+      {% endif %}
+      
+      创建时间：{{ page.date | date: '%Y-%m-%d' }}
+      
+      {% if page.author %} • {{ page.author }}{% endif %}
+      {% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
+  </header>
 
 
-  <article>
+  <article class="post-content">
     {{ content }}
   </article>
   <!-- 有言评论 -->
