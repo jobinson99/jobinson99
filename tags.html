@@ -8,7 +8,8 @@ permalink: /tags/
 <section class="subject-archive">
   <div class="subject-vision">
     {% for tag in site.tags %}
-    <a href="/tags/#{{ tag[0] }}-ref" id="{{ forloop.index }}" class="tag-vision">{{ tag[0] }}</a><sup>{{ tag.size }}</sup>
+    <a href="/tags/#{{ tag[0] }}-ref" id="{{ forloop.index }}" class="tag-vision">{{ tag[0] }}</a>
+    <sup>{{ tag.size }}</sup>
     {% endfor %}
   </div>
   <script type="text/javascript">

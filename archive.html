@@ -6,13 +6,15 @@ categories: category
 ---
 
 <section class="subject-archive">
-<div class="post">
+  <div class="post">
     <ul class="post-list">
       {% for post in site.posts %}
-      <li><span>{{ post.date | date: '%Y-%m-%d' }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>{{ post.description }}
+      <li><span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        
+        {% if post.description %}<span class="post-description">{{ post.description }}</span>{% endif %}
       </li>
       {% endfor %}
     </ul>
-</div>
+  </div>
 </section>

@@ -15,7 +15,7 @@ layout: default
       {% if page.categories.size != 0 %}
       <span class="categories">归类：
         {% for cat in page.categories %}
-        <a href="/category/categories.html#{{ cat }}-ref">【{{ cat }}】</a>
+        <a href="/categories/#{{ cat }}-ref">【{{ cat }}】</a>
         {% endfor %}
       </span>
       {% endif %}
@@ -49,7 +49,7 @@ layout: default
   
   <div class="post-tag">
     {% for tag in page.tags %}
-    【<a href="/category/tags.html#{{tag}}-ref">{{tag}}</a>】
+    <a href="/tags/#{{tag}}-ref">【{{tag}}】</a>
     <sup>{{ tag.size }}</sup>
     &nbsp;
     {% endfor %}
