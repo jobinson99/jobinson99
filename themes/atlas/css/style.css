@@ -1117,12 +1117,12 @@ nav li a:hover,
 .site-nav,
 .resource-list,
 .post-list,
-.outline,
 .nav-page,
 .system-info,
 .site-map,
 .system-action,
 .page-action,
+.outline,
 .toc,.table-of-content {
 
 }
@@ -1134,6 +1134,7 @@ nav li a:hover,
 #table-of-contents #text-table-of-contents {
 
 }
+
 /* 屏幕大时宽屏陈列，小时列表 */
 @media all and (max-width: 36em) {
 
