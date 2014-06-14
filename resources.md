@@ -17,10 +17,9 @@ permalink: /我的收藏夹/
 <iframe class="hao123" src="http://www.hao123.com"></iframe>
 
 
+<div class="to-hot">
+<a href="http://i-org.tk/我的收藏夹/">重点推广网站的板块推荐</a>
+</div>
 
-用iframe直接嵌入hao123吧
-
-
-日期：
-天气：
+懒人还是直接用iframe嵌入hao123吧
 
