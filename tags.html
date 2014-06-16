@@ -11,8 +11,8 @@ permalink: /话题列表/
   <div class="post-abstract">
 
     {% for tag in site.tags %}
-    <span class="post-tag"><a href="/话题列表/#{{tag[0]}}-ref" id="{{ forloop.index }}" class="tag-vision">{{ tag[0] }}</a>
-    <sup>{{tag[1].size}}</sup>
+    <span class="post-tag"><a href="/话题列表/#{{tag[0]}}-ref" id="{{ forloop.index }}" class="tag-vision">{{ tag[0] }}
+    <sup>{{tag[1].size}}</sup></a>
     </span>&nbsp;
     {% endfor %}
     

@@ -9,14 +9,14 @@ layout: default
 
     <div class="post-abstract">
       {% if page.description %}
-      <p class="post-description"><b>摘要：</b><br/>{{page.description}}</p>
+      <p><b>摘要：</b><br/>{{page.description}}</p>
       {% endif %}
 
       {% if page.tag.size != 0 %}
       <p class="post-tag"><b>话题：</b>
         {% for tag in page.tags %}
-        <a href="/话题列表/#{{tag}}-ref">{{tag}}</a>
-        <sup>{{ site.tags[tag].size }}</sup>
+        <a href="/话题列表/#{{tag}}-ref">{{tag}}
+        <sup>{{ site.tags[tag].size }}</sup></a>
         &nbsp;
         {% endfor %}
       </p>
