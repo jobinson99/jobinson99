@@ -31,8 +31,10 @@ title: 黑色一眸——黑色的不是眼睛而是眼圈
     
     <ul class="post-list">
       {% for post in site.posts %}
-      <li><span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+          <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span></a>
+      </li>
       {% endfor %}
     </ul>
     
