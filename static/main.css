@@ -85,27 +85,28 @@
 
 .index-maxim {
     background: white;
-    font-size: 90%;
+    
 
-    padding: 5px 5px 5px 5px;
+    padding: 5px 0;
+    
     display: block;
     margin: 1em 0;
 
-    height: 100px;
+    height: 140px;
     overflow-y: hidden;
     overflow-x: auto;
     
-    column-width: 20px;
-    -webkit-column-width: 20px;
-    -moz-column-width: 20px;
+    column-width: 50px;
+    -webkit-column-width: 50px;
+    -moz-column-width: 50px;
 
     column-rule: 1px solid #dcdcdc;
     -moz-column-rule: 1px solid #dcdcdc;
     -webkit-column-rule: 1px solid #dcdcdc;
 
-    column-gap: 20px;
-    -moz-column-gap: 20px;
-    -webkit-column-gap: 20px;
+    column-gap: 0px;
+    -moz-column-gap: 0px;
+    -webkit-column-gap: 0px;
     
     direction:rtl;
     unicode-bidi:bidi-override;
@@ -119,6 +120,12 @@
 
 .index-maxim:hover {
     background: #DEDFFF;
+}
+
+.index-maxim p {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    
 }
 
 .rounded1,
