@@ -3,7 +3,7 @@ title: 黑色一眸
 email: gmail for jobinson99
 description: "黑色的不是眼睛而是眼圈"
 baseurl: ""
-url: "http://jobinson99.tk"
+url: "http://jobinson99.ga"
 
 # Build settings
 markdown: kramdown
@@ -18,7 +18,8 @@ future: true
 # 语法高亮
 highlighter: pygments
 
-
+include:
+- .nojekyll
 
 # 样式选择
 themes: /themes/atlas
