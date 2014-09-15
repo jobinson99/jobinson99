@@ -3,7 +3,7 @@ layout: default
 title: "一键刷新域名"
 description: "一手掌握"
 categories: category
-permalink: /一键刷新/
+permalink: /一处刷新/
 --- 
 
 <iframe class="my-domain" src="http://i-org.ga"></iframe>
@@ -19,7 +19,10 @@ permalink: /一键刷新/
 <iframe class="my-domain" src="http://n-n-n.ga"></iframe>
 <iframe class="my-domain" src="http://meiti.ga"></iframe>
 <iframe class="my-domain" src="http://shang.ga"></iframe>
-<iframe class="my-domain" src="http://.ga"></iframe>
+<iframe class="my-domain" src="http://huiwu.ga"></iframe>
 <iframe class="my-domain" src="http://.ga"></iframe>
 
 
+<script type="text/javascript">
+
+</script>
