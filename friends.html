@@ -45,6 +45,26 @@ permalink: /友情链接/
     <li><a href="http://shang.ga">尚</a></li>
   </ul>
 
+  <h2 id="test1">adf</h2>
+  <div id="test2">
+  <ul class="test3"></ul>
+  </div>
   <script type="text/javascript">
-   
-</script>
+
+   $(document).on("pagecreate", function(){
+$.getJSON("../my-domain.json", function(data) {
+       var items = data;
+       $.each(data, function(key, value) {
+         var jsondd = {};
+         jsondd[key] = data[key];
+         jsondd[value] = data[value];
+         items.push('<li><a href="http://' + jsondd[key] + '">' + jsondd[value] + '</a></li>');
+     });
+     $("<ul>", {
+       "class": "test3",
+       html: items.join("")
+     }).appendTo(".test3");
+   });
+});
+  </script>
+  

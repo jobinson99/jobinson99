@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "一键刷新域名"
+title: "一处刷新域名"
 description: "一手掌握"
 categories: category
 permalink: /一处刷新/
