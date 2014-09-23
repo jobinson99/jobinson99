@@ -10,6 +10,7 @@ permalink: /一处刷新/
 <iframe class="my-domain" src="http://jobinson99.ga"></iframe>
 <iframe class="my-domain" src="http://jobinson.ga"></iframe>
 <iframe class="my-domain" src="http://gagi.ga"></iframe>
+<iframe class="my-domain" src="http://cong.ga"></iframe>
 <iframe class="my-domain" src="http://cang.ga"></iframe>
 <iframe class="my-domain" src="http://neng.ga"></iframe>
 <iframe class="my-domain" src="http://nong.ga"></iframe>
@@ -20,7 +21,7 @@ permalink: /一处刷新/
 <iframe class="my-domain" src="http://meiti.ga"></iframe>
 <iframe class="my-domain" src="http://shang.ga"></iframe>
 <iframe class="my-domain" src="http://huiwu.ga"></iframe>
-<iframe class="my-domain" src="http://.ga"></iframe>
+<iframe class="my-domain" src="http://sodis.ga"></iframe>
 
 
 <script type="text/javascript">
