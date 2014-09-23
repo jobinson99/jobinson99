@@ -1,21 +1,271 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>黑色一眸</title>
+    <description>黑色的不是眼睛而是眼圈</description>
+    <link>http://jobinson99.ga/</link>
+    <atom:link href="http://jobinson99.ga/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %Y %b %d %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>某类人太像了</title>
+        <description>&lt;p&gt;最近娱乐圈闹得沸沸扬扬的姚大嘴，某类人真的是一个模子刻出来的，一样一样的：自己犯错，先是挑动别人去攻击受害者。
+接着装无辜，放任别人去持续不断连年不绝地攻击受害者，恩义全无，一丁点人性都看不到！&lt;/p&gt;
+
+&lt;p&gt;另，老天还是开眼的，这东西真的是现世报。&lt;/p&gt;
+
+&lt;p&gt;另，王菲，伊能静这种人是没有爱的，他们只有欲，人类最原始最动物性的一面：欲！其实他们的行为连动物都侮辱了，动物还懂得顾及子女的生存环境。&lt;/p&gt;
+
+&lt;p&gt;1.如果 爱=欲，
+2.欲的本性是泛滥的
+3.那么，为了 欲， 抛妻弃子 等都是正常的。&lt;/p&gt;
+
+&lt;p&gt;4.1那么，一个抛妻弃子的人类还能发展成人类么？人类这个族群还有可能有正常的延续能力么？
+4.2对于个人来说，还有温馨生活么？还有信任么？还有未来么？&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 2014 Sep 21 00:35:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/09/21/%E6%9F%90%E7%B1%BB%E4%BA%BA%E5%A4%AA%E5%83%8F%E4%BA%86/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/09/21/%E6%9F%90%E7%B1%BB%E4%BA%BA%E5%A4%AA%E5%83%8F%E4%BA%86/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>冰镇冰糖柚皮</title>
+        <description>&lt;p&gt;冰镇冰糖柚皮太好吃了&lt;/p&gt;
+
+&lt;p&gt;热的时候晶莹剔透，饱满多汁，一咬就有奔涌而出的满嘴的清甜&lt;/p&gt;
+
+&lt;p&gt;冰镇后别有风味。&lt;/p&gt;
+
+&lt;p&gt;上瘾了都！晚上回家路上，满脑子的冰镇柚皮。&lt;/p&gt;
+
+&lt;p&gt;做法：扒出来的皮，盐水泡洗去农药残留和外皮苦味，切条或丁，清水开后，放入柚皮和糖，熬到糖水很少很少。&lt;/p&gt;
+
+&lt;p&gt;热的吃也很好。&lt;/p&gt;
+
+&lt;p&gt;另外，柚皮泡锅里一整晚，整个锅都是柚香&lt;/p&gt;
+
+&lt;p&gt;后记：&lt;/p&gt;
+
+&lt;p&gt;上周买了一个大柚子，吃完果肉，一时手痒，就把柚皮熬了，比柚肉还好吃，还上瘾了。
+过了几天，特地又买了两个，卖柚子的还送了几个柚皮，又开干了，现在一大锅放冰箱里。&lt;/p&gt;
+
+&lt;p&gt;做法：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;新鲜柚，扒皮吃肉&lt;/li&gt;
+  &lt;li&gt;盐洗柚皮，切丁，泡一天&lt;/li&gt;
+  &lt;li&gt;取出，用温水冲下&lt;/li&gt;
+  &lt;li&gt;烧开水，放入柚皮和冰糖&lt;/li&gt;
+  &lt;li&gt;熬&lt;/li&gt;
+  &lt;li&gt;出锅&lt;/li&gt;
+  &lt;li&gt;冷切&lt;/li&gt;
+  &lt;li&gt;冰冻&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Fri, 2014 Sep 19 07:03:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/19/%E5%86%B0%E9%95%87%E5%86%B0%E7%B3%96%E6%9F%9A%E7%9A%AE/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/19/%E5%86%B0%E9%95%87%E5%86%B0%E7%B3%96%E6%9F%9A%E7%9A%AE/</guid>
+      </item>
+    
+      <item>
+        <title>老师的声音</title>
+        <description>&lt;p&gt;晚上去给静娜贴招牌，刚好在教室外听她讲课，轻声细语的，一下子把我拉回到了高中时代，这样的声音也才是她的正常状态，比起任何佛经都更能涤荡心灵。&lt;/p&gt;
+
+&lt;p&gt;对了，我高中的漂亮女英语老师喜欢游泳……
+她虽然没有轻声细语，但态度是一样的，这样的态度，很让人喜欢，也很让人感觉温暖。&lt;/p&gt;
+
+&lt;p&gt;对，就是循循善诱比较讨人喜欢 很性感哦，秒杀一切年龄段男人&lt;/p&gt;
+
+&lt;p&gt;另：伤是因为哀叹自己命运，别人太轻了，轻的不值动一丝一毫的感官！&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 2014 Sep 17 22:04:35 +0800</pubDate>
+        <link>http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/17/%E8%80%81%E5%B8%88%E7%9A%84%E5%A3%B0%E9%9F%B3/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/17/%E8%80%81%E5%B8%88%E7%9A%84%E5%A3%B0%E9%9F%B3/</guid>
+      </item>
+    
+      <item>
+        <title>有些人的跌宕人生是自己造的</title>
+        <description>&lt;p&gt;刚看到一个&lt;a href=&quot;http://m.sohu.com/n/404279402/?wscrid=1154_1&amp;amp;_smuid=UPEctiBnI7haWN1B1Y7Gov&amp;amp;v=2&quot;&gt;真实故事&lt;/a&gt;：某个美院文艺女生，因为喜欢写诗，上网结识写诗的朋友，喜欢上了一个高二就辍学、打杂工的穷小伙子，放弃了快要到手的毕业证书，和男的在一起，过了一段时间，受不了，就跑到北京去。&lt;/p&gt;
+
+&lt;p&gt;小伙子后来也去了北京，两人又在一起，过了一段时间，和好友在老家开了个奶茶店，两人又一起回去了。&lt;/p&gt;
+
+&lt;p&gt;好景不长，女的又受不了，又去了北京，过了一段时间，又被男的找回……&lt;/p&gt;
+
+&lt;p&gt;就这样反反复复，终于最后领了结婚证。&lt;/p&gt;
+
+&lt;p&gt;呵呵，真是折磨。&lt;/p&gt;
+
+&lt;p&gt;真像某些人，骨子里蠢蠢欲动，不安分，折磨了自己也折磨了所有的亲人，给自己和所有亲人制造了一次又一次的磨难。&lt;/p&gt;
+
+&lt;p&gt;不作不死！&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;爱是你我
+用心交织的生活
+爱是你和我
+在患难之中不变的承诺
+爱是你的手
+把我的伤痛抚摸
+爱是用我的心
+倾听你的忧伤欢乐
+爱是你我
+用心交织的生活
+爱是你和我
+在患难之中不变的承诺
+爱是你的手
+把我的伤痛抚摸
+爱是用我的心
+倾听你的忧伤欢乐
+这世界我来了
+任凭风暴旋涡
+真心的爱的承诺
+让我看到了阳光闪烁爱拥抱着我
+我们感觉到她的抚摸
+就算生活给我无尽的苦痛折磨
+我还是觉得幸福更多
+爱是你我
+用心交织的生活
+爱是你和我
+在患难之中不变的承诺
+爱是你的手
+把我的伤痛抚摸
+爱是用我的心
+倾听你的忧伤欢乐
+这世界我来了
+任凭风暴旋涡
+真心的爱的承诺
+让我看到了阳光闪烁爱拥抱着我
+我们感觉到她的抚摸
+就算生活给我无尽的苦痛折磨
+我还是觉得幸福更多
+觉得幸福更多&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 2014 Sep 13 23:13:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/09/13/%E6%9C%89%E4%BA%9B%E4%BA%BA%E7%9A%84%E8%B7%8C%E5%AE%95%E4%BA%BA%E7%94%9F%E6%98%AF%E8%87%AA%E5%B7%B1%E9%80%A0%E7%9A%84/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/09/13/%E6%9C%89%E4%BA%9B%E4%BA%BA%E7%9A%84%E8%B7%8C%E5%AE%95%E4%BA%BA%E7%94%9F%E6%98%AF%E8%87%AA%E5%B7%B1%E9%80%A0%E7%9A%84/</guid>
+      </item>
+    
+      <item>
+        <title>龟儿子们有固定的家了</title>
+        <description>&lt;p&gt;自己粘了个鱼缸，80×30×50，底加厚，总共50块钱，高度一开始看起来好像不够，不过做出来后，高度适合，可以再高一点，大概60，整个缸看起来也很大，基本符合最初的预想。&lt;/p&gt;
+
+&lt;p&gt;完成几道加固工艺后，明天晚上应该可以让我的龟儿子们搬入新家。&lt;/p&gt;
+
+&lt;p&gt;另外，草龟真的是群居性动物，十二只全部挂在富贵竹的根下，拉都拉不开。&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 2014 Sep 11 23:26:09 +0800</pubDate>
+        <link>http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/11/%E9%BE%9F%E5%84%BF%E5%AD%90%E4%BB%AC%E6%9C%89%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%AE%B6%E4%BA%86/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/11/%E9%BE%9F%E5%84%BF%E5%AD%90%E4%BB%AC%E6%9C%89%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%AE%B6%E4%BA%86/</guid>
+      </item>
+    
+      <item>
+        <title>电信衰落鉴</title>
+        <description>&lt;p&gt;这段时间去注销电信帐号，来来回回几次，非常繁琐麻烦，而且好像被抢劫了好几次。&lt;/p&gt;
+
+&lt;p&gt;更令人不爽的是，整个至少一百平的营业厅，竟然看不到一个年轻的服务员，都是一个个满脸写着家庭失败、满脸怨气的老女人，
+这还不算糟，更糟糕的是，她们嘴巴尖酸刻薄，满嘴怨毒。&lt;/p&gt;
+
+&lt;p&gt;这要是自己开的店，绝对客人走光，也难怪今年电信客户流失严重了。也就电信这种霸王，还能容下这样的前台客服人员，也难怪今年电信客户流失严重了。&lt;/p&gt;
+
+&lt;p&gt;经验教训：&lt;/p&gt;
+
+&lt;p&gt;对于前台客服人员，不一定要年轻，但每天上班，一定要先热身培训，清扫掉各种情绪。&lt;/p&gt;
+
+&lt;p&gt;另外，就是要录音录像监控在营业厅中的言行，营业厅中服务人员的所有言行，都是会关系到业务的。&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 2014 Sep 11 09:46:11 +0800</pubDate>
+        <link>http://jobinson99.ga/%E6%95%A6%E7%85%8C%E4%B9%8B%E8%B7%AF/2014/09/11/%E7%94%B5%E4%BF%A1%E8%A1%B0%E8%90%BD%E9%89%B4/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E6%95%A6%E7%85%8C%E4%B9%8B%E8%B7%AF/2014/09/11/%E7%94%B5%E4%BF%A1%E8%A1%B0%E8%90%BD%E9%89%B4/</guid>
+      </item>
+    
+      <item>
+        <title>想念长三角</title>
+        <description>&lt;p&gt;想念长三角的冬天，凉冷的天气，暖热的饭菜，温暖的朋友！&lt;/p&gt;
+
+&lt;p&gt;我最常吃的牛肉拉面，羊肉泡馍，都是暖烘烘的。&lt;/p&gt;
+
+&lt;p&gt;还有两样零食便宜量足：山楂片，枣&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 2014 Sep 07 05:51:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/07/%E6%83%B3%E5%BF%B5%E9%95%BF%E4%B8%89%E8%A7%92/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/07/%E6%83%B3%E5%BF%B5%E9%95%BF%E4%B8%89%E8%A7%92/</guid>
+      </item>
+    
+      <item>
+        <title>苦难要断根</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;希望好人都平安&lt;/li&gt;
+  &lt;li&gt;希望人世间充满爱&lt;/li&gt;
+  &lt;li&gt;希望每个家庭都幸福美满&lt;/li&gt;
+  &lt;li&gt;希望人与人之间没有伤害 &lt;/li&gt;
+  &lt;li&gt;希望人世间没有罪恶&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;苦难我都经历了，不想别人也这样
+要让苦难断根！&lt;/p&gt;
+
+&lt;p&gt;贴心的人是没有的了！&lt;/p&gt;
+
+&lt;p&gt;一首好玩的诗《大雨》：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;那天大雨，你走后&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我站在芳园南街上&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;像落难的孙悟空&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;对每辆开过的出租车&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;都大喊：师傅……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;很好的一首诗，神话与现代交杂凸显有些&lt;strong&gt;荒诞&lt;/strong&gt;的经历！&lt;/p&gt;
+</description>
+        <pubDate>Fri, 2014 Sep 05 23:59:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/05/%E8%8B%A6%E9%9A%BE%E8%A6%81%E6%96%AD%E6%A0%B9/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2014/09/05/%E8%8B%A6%E9%9A%BE%E8%A6%81%E6%96%AD%E6%A0%B9/</guid>
+      </item>
+    
+      <item>
+        <title>人是风水中最重要的因素</title>
+        <description>&lt;p&gt;遇到两个人渣中的极品，再怎么样精妙的风水布置也抵不住人家的刻意糟践。&lt;/p&gt;
+
+&lt;p&gt;梦里想着怎么报复，白天发现突然死了两只龟，很烦躁，生命脆弱，让人措手不及。&lt;/p&gt;
+
+&lt;p&gt;尽量用自己意志控制恶念吧，实在自己控制不了，就借助活的动物去控制，还控制不了，那就发泄下。当你能够清理掉心里的恶念的时候，你就升级了，那会自有更好更高层次的机缘&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 2014 Aug 31 21:27:00 +0800</pubDate>
+        <link>http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/08/31/%E4%BA%BA%E6%98%AF%E9%A3%8E%E6%B0%B4%E4%B8%AD%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E5%9B%A0%E7%B4%A0/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/08/31/%E4%BA%BA%E6%98%AF%E9%A3%8E%E6%B0%B4%E4%B8%AD%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E5%9B%A0%E7%B4%A0/</guid>
+      </item>
+    
+      <item>
+        <title>没有人有资格毁别人人生</title>
+        <description>&lt;p&gt;这个世界怎么会有贱人来毁别人的人生？&lt;/p&gt;
+
+&lt;p&gt;所以，要找一个内心最至善至美，品质好，心胸开阔的女人，蛇蝎心肠，斤斤计较，心胸狭窄的坚决不能要！&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 2014 Aug 27 21:49:49 +0800</pubDate>
+        <link>http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/08/27/%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%9C%89%E8%B5%84%E6%A0%BC%E6%AF%81%E5%88%AB%E4%BA%BA%E4%BA%BA%E7%94%9F/</link>
+        <guid isPermaLink="true">http://jobinson99.ga/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/08/27/%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%9C%89%E8%B5%84%E6%A0%BC%E6%AF%81%E5%88%AB%E4%BA%BA%E4%BA%BA%E7%94%9F/</guid>
+      </item>
+    
   </channel>
 </rss>
