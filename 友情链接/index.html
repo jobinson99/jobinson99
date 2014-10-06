@@ -94,6 +94,28 @@
     <li><a href="http://shang.ga">尚</a></li>
   </ul>
 
+  <pre>
+我的歌单2008-2014
+￼￼爱是你我 刀郎、王翰仪、云朵
+￼￼不管有多苦 那英
+国际歌 中央乐团合唱队
+多想把你留住 孙露￼
+无法原谅 孙露￼
+天下有情人 周华健/齐豫 ￼
+三年三天 安与骑兵  ￼
+等待 黄绮珊 
+￼领悟 辛晓琪 ￼
+他不爱我 莫文蔚 ￼
+那些年 胡夏 ￼
+欢颜 齐豫
+新不了情 万芳￼
+当爱已成往事 李宗盛林忆莲 
+￼因为爱情
+千里之外 周杰伦、费玉清
+￼画心 张靓颖
+与世隔绝 王祖贤
+</pre>
+  
   <h2 id="test1">adf</h2>
   <div id="test2">
   <ul class="test3"></ul>
@@ -102,11 +124,11 @@
 
    $(document).on("pagecreate", function(){
 $.getJSON("../my-domain.json", function(data) {
-       var items = data;
-       $.each(data, function(key, value) {
+       var items = data.table;
+       $.each(items, function(key, value) {
          var jsondd = {};
-         jsondd[key] = data[key];
-         jsondd[value] = data[value];
+         jsondd[key] = items[key];
+         jsondd[value] = items[value];
          items.push('<li><a href="http://' + jsondd[key] + '">' + jsondd[value] + '</a></li>');
      });
      $("<ul>", {
