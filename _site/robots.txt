@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /static/
-Disallow: /themes/
-
-Sitemap: http://jobinson99.ga/sitemap.xml
