@@ -38,6 +38,13 @@
     </url>
     
     <url>
+      <loc>/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2015/01/04/%E4%B8%9C%E8%8C%B6%E6%81%8B/</loc>
+      <changefreq>daily</changefreq>
+      <lastmod>2015-01-04T23:18:21+08:00</lastmod>
+      <priority>1.0</priority>
+    </url>
+    
+    <url>
       <loc>/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/2015/01/02/%E7%A7%A6%E6%B7%AE%E6%B2%B3%E5%A0%A4%E4%B8%8E%E5%85%AC%E5%85%B1%E8%AE%BE%E6%96%BD/</loc>
       <changefreq>daily</changefreq>
       <lastmod>2015-01-02T13:08:39+08:00</lastmod>
@@ -104,13 +111,6 @@
       <loc>/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/12/22/%E5%B9%B2%E5%87%80/</loc>
       <changefreq>daily</changefreq>
       <lastmod>2014-12-22T20:10:37+08:00</lastmod>
-      <priority>1.0</priority>
-    </url>
-    
-    <url>
-      <loc>/%E6%82%9F%E4%B8%8E%E6%88%96%E8%AF%AF/2014/12/21/%E4%B8%9C%E8%8C%B6%E6%81%8B/</loc>
-      <changefreq>daily</changefreq>
-      <lastmod>2014-12-21T23:18:21+08:00</lastmod>
       <priority>1.0</priority>
     </url>
     
