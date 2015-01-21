@@ -1047,6 +1047,13 @@ article img {
     float: right;
 }
 
+@media all and (max-width: 36em) {
+    .left-middle-hook,
+    .right-middle-hook {
+      top: 50%;
+    }
+}
+
 /*****************************************************************************/
 /*
 /* 六点菜单设置
