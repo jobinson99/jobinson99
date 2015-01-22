@@ -1,11 +1,201 @@
 <!DOCTYPE html>
 <html>
-<%- partial('component/head') %>
+
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>我的私人关系</title>
+<meta name="description" content="黑传说的私人笔记">
+
+<link rel="canonical" href="http://jobinson99.ga/友情链接/">
+
+<!-- 皮肤样式 -->
+<link rel="stylesheet" href="/themes/atlas/css/style.css">
+
+<!-- 首页和404各站特异的样式 -->
+<link rel="stylesheet" href="/static/main.css">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+    
   <body>
 
-  <%- partial('component/header') %> 
-  <%- contents %>
-  <%- partial('component/footer') %>
+      <div class="left-top-hook"></div><!-- 站内信息 -->
+<div class="right-top-hook"></div><!-- 页内信息 -->
+<div class="left-middle-hook"></div><!-- 页内操作 -->
+<div class="right-middle-hook"></div><!-- 页内导航 -->
+<div class="right-bottom-hook"></div><!-- 站内系统 -->
+<div class="left-bottom-hook"></div><!-- 站内栏目 -->
 
+<header class="site-header">  
+  <nav class="site-nav">
+    <ul>
+      <li><a href="/">欢颜</a></li>
+      <li><a href="/分类列表/">按分类查看</a></li>
+      <li><a href="/话题列表/">按话题查看</a></li>
+      <li><a href="/时间列表/">按时间查看</a></li>
+      <li><a href="/友情链接/">好友关系</a></li>
+      <li><a href="/关于我/">关于我</a></li>
+    </ul>
+  </nav>
+  
+</header>  
+
+<nav class="outline toc">
+</nav> 
+
+      
+      <div class="post">
+
+  <header class="page-header">
+    <h1>我的私人关系</h1>
+  </header>
+
+  <article class="page-content">
+      <h2>公共关系</h2>
+
+  <ul class="post-list">
+    <li><a href="http://mr6.cc">【台湾】刘威麟</a></li>
+    <li><a href="http://lxxm.com">【马来西亚】理性选民</a></li>
+    
+  </ul>
+
+  <h2>好友链接</h2>
+
+  <ul class="post-list">
+    <li><a href="http://jobinson.360doc.com">藏经阁——我的读网笔记</a></li>
+    <li><a href="http://jobinson.blog.sohu.com">我的搜狐老博客</a></li>
+    <li><a href="http://jobinson99.blog.163.com">我的网易老博客</a></li>
+    <li><a href="http://picasaweb.google.com/jobinson99">老相册需要翻墙</a></li>
+    <li><a href="http://huiwu.ga">东东</a></li>
+    <li><a href="http://warmjuju.blogbus.com">小居</a></li>
+    <li><a href="http://www.moxuezhang.com">阿咪</a></li>
+
+    
+  </ul>
+
+  <h2 id="my-domain">我自己的链接</h2>
+  <ul class="post-list">
+    <li><a href="http://991080.ga">991080</a></li>
+    <li><a href="http://bian.ga">爱编：编程教学</a></li>
+    <li><a href="http://cang.ga">藏</a></li>
+    <li><a href="http://chong.ga">宠</a></li>
+    <li><a href="http://cong.ga">从</a></li>
+    <li><a href="http://gagi.ga">静娜</a></li>
+    <li><a href="http://gino.ga">吉诺</a></li>
+    <li><a href="http://i-org.ga">爱编——第一种国际化编程语言</a></li>
+    
+    <li><a href="http://jobinson99.ga">黑色一眸</a></li>
+    <li><a href="http://jobinson.ga">黑传说</a></li>
+    
+    
+    <li><a href="http://neng.ga">能</a></li>
+    <li><a href="http://nong.ga">侬</a></li>
+
+    <li><a href="http://geng.ga">羹</a></li>
+    <li><a href="http://wiii.ga">wiii</a></li>
+    <li><a href="http://n-n-n.ga">n-n-n</a></li>
+    <li><a href="http://meiti.ga">媒体</a></li>
+    <li><a href="http://shang.ga">尚</a></li>
+  </ul>
+
+  <pre>
+我的歌单2008-2014
+
+鬼迷心窍 李宗盛
+爱过的你 何洁
+两边 邰正宵、孟庭苇
+好人好梦 孙悦、邰正宵
+重逢 林子祥、叶倩文
+爱是你我 刀郎、王翰仪、云朵
+不管有多苦 那英
+国际歌 中央乐团合唱队
+多想把你留住 孙露
+无法原谅 孙露
+天下有情人 周华健/齐豫
+三年三天 安与骑兵
+等待 黄绮珊 
+领悟 辛晓琪
+他不爱我 莫文蔚
+那些年 胡夏
+欢颜 齐豫
+新不了情 万芳
+当爱已成往事 李宗盛林忆莲 
+因为爱情
+千里之外 周杰伦、费玉清
+画心 张靓颖
+与世隔绝 王祖贤
+</pre>
+  
+  <h2 id="test1"></h2>
+  <div id="test2">
+  <ul class="test3"></ul>
+  </div>
+  <script type="text/javascript">
+
+   $(document).on("pagecreate", function(){
+$.getJSON("../my-domain.json", function(data) {
+       var items = data.table;
+       $.each(items, function(key, value) {
+         var jsondd = {};
+         jsondd[key] = items[key];
+         jsondd[value] = items[value];
+         items.push('<li><a href="http://' + jsondd[key] + '">' + jsondd[value] + '</a></li>');
+     });
+     $("<ul>", {
+       "class": "test3",
+       html: items.join("")
+     }).appendTo(".test3");
+   });
+});
+  </script>
+  
+
+  </article>  
+
+</div>
+      
+      <footer class="site-footer">
+  <ul>
+    <li>
+      <span>©2015版权所有：黑传说</span>
+      <span>私人日志，转载时请注意保护本人隐私，谢谢合作！</span>
+    </li>
+    <li>
+      <span>黑色一眸</span>
+      <span>黑色的不是眼睛而是眼圈</span>
+    </li>
+    <li>
+      <span><a href="mailto:gmail for jobinson99">gmail for jobinson99</a></span>
+      <span><a href="/feed.xml">戳此处关注我</a></span>
+       <span><a href="https://github.com/jobinson99">我的开发仓库</a></span>
+    </li>
+    <li>
+      <span>致谢： </br>
+        <a href="http://www.github.com">空间：github</a>，
+        <a href="http://jekyllrb.com">构建：jekyll</a>，
+        <a href="http://freenom.com/">域名：freenom</a>，
+        以及一切对本人有帮助的人事物！</span>
+      <span>
+       <!--百度统计-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F201a0c0d0cc41b0d87f2bca88228abbb' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+      </span>
+    </li>
+  </ul>
+</footer>
+
+    
+    
+
+      
+    <script data-main="/themes/atlas/javascript/main" src="/themes/atlas/javascript/require.js" defer async="true"></script>
+    
   </body>
-</html> 
+</html>
