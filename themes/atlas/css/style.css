@@ -1076,14 +1076,25 @@ nav {
 }
 
 .site-nav {
-    bottom: 8%;
-    left: -5px;
+  bottom: 8%;
+  left: -5px;
+  display: none;
+}
+.outline {
+  bottom: 8%; 
+  right: 5px;
+  display: none;
 }
 
-.outline {
-    bottom: 8%;
-    right: 5px;
+.site-nav:active {
+    display: block;
 }
+
+.outline:active {
+    display: block;
+}
+
+
 
 
 nav li,
