@@ -77,30 +77,7 @@
     
   </ul>
 
-  <h2 id="my-domain">我自己的链接</h2>
-  <ul class="post-list">
-    <li><a href="http://991080.ga">991080</a></li>
-    <li><a href="http://bian.ga">爱编：编程教学</a></li>
-    <li><a href="http://cang.ga">藏</a></li>
-    <li><a href="http://chong.ga">宠</a></li>
-    <li><a href="http://cong.ga">从</a></li>
-    <li><a href="http://gagi.ga">静娜</a></li>
-    <li><a href="http://gino.ga">吉诺</a></li>
-    <li><a href="http://i-org.ga">爱编——第一种国际化编程语言</a></li>
-    
-    <li><a href="http://jobinson99.ga">黑色一眸</a></li>
-    <li><a href="http://jobinson.ga">黑传说</a></li>
-    
-    
-    <li><a href="http://neng.ga">能</a></li>
-    <li><a href="http://nong.ga">侬</a></li>
-
-    <li><a href="http://geng.ga">羹</a></li>
-    <li><a href="http://wiii.ga">wiii</a></li>
-    <li><a href="http://n-n-n.ga">n-n-n</a></li>
-    <li><a href="http://meiti.ga">媒体</a></li>
-    <li><a href="http://shang.ga">尚</a></li>
-  </ul>
+  <h2>我的歌单</h2>
 
   <pre>
 我的歌单2008-2014
@@ -129,15 +106,40 @@
 画心 张靓颖
 与世隔绝 王祖贤
 </pre>
-  
-  <h2 id="test1"></h2>
+
+  <h2 id="my-domain">我自己的链接</h2>
+
   <div id="test2">
   <ul class="test3"></ul>
   </div>
+  
   <script type="text/javascript">
-
+   var mydomain = '{
+         "黑色一眸": "jobinson99.ga",
+    "黑传说": "jobinson.ga",
+    "爱编": "i-org.ga",
+    "自己": "gagi.ga",
+    "慧悟": "huiwu.ga",
+    "互动久久": "991080.ga",
+    "无限思维": "n-n-n.ga",
+    "媒体": "meiti.ga",
+    "尚": "shang.ga",
+    "侬": "nong.ga",
+    "能": "neng.ga",
+    "藏": "cang.ga",
+    "羹": "geng.ga",
+    "威": "wiii.ga",
+    "是么": "sodis.ga",
+    "从": "cong.ga",
+    "宠": "chong.ga",
+    "爱宠": "i-pet.ga", 
+    "未来家": "weilai.ga",
+    "吉诺家": "gino.ga",
+    "爱编": "bian.ga",
+   }'
+   
    $(document).on("pagecreate", function(){
-$.getJSON("../my-domain.json", function(data) {
+$.getJSON(".../my-domain.json", function(data) {
        var items = data.table;
        $.each(items, function(key, value) {
          var jsondd = {};
