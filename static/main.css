@@ -7,25 +7,26 @@
 /* :::: 文章多屏显示 :::: */
 
 .post {
-        overflow-y: hidden;
-        overflow-x: auto;
-        
-        height: 90%;
-        
-        
-        -webkit-column-width: 600px;
-        -moz-column-width: 600px;
-        column-width: 600px;
+    overflow-y: hidden;
+    overflow-x: auto;
     
-       -webkit-column-rule: 10px solid white;
-	   -moz-column-rule: 10px solid white;
-	   column-rule: 10px solid white;
-        
-       -webkit-column-gap: 60px;    
-	   -moz-column-gap: 60px;
-	   column-gap: 60px;
+    height: 600px;
+    width: auto;
+    padding-left: 20px;
     
-	   word-wrap: break-word;      /*英文断开字母*/
+    -webkit-column-width: 600px;
+    -moz-column-width: 600px;
+    column-width: 600px;
+    
+    -webkit-column-rule: 10px solid white;
+    -moz-column-rule: 10px solid white;
+    column-rule: 10px solid white;
+    
+    -webkit-column-gap: 60px;    
+    -moz-column-gap: 60px;
+    column-gap: 60px;
+    
+    word-wrap: break-word;      /*英文断开字母*/
 
 }
 

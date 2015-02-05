@@ -836,14 +836,14 @@ table {
 }
 
 th {
-    background: #6C71C4;
     color: white;
+    background: #BBBBFF;
     padding: 10px;
 }
 
 th:hover {
     color: white;
-    background: #BBBBFF;
+    background: #6C71C4;
 }
 
 th, td {
@@ -971,6 +971,8 @@ article img {
     background: transparent url(/static/logo.png) no-repeat ;
     background-size: 50px 50px;
 
+    content: none;
+    
     border: 2px ridge #ffffff;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -989,6 +991,7 @@ article img {
     -webkit-transform: scale(1.25) rotate(40deg);
     -o-transform: scale(1.25) rotate(40deg);
     -ms-transform: scale(1.25) rotate(40deg);
+
 }
 .activate {
     -moz-transform: scale(0.75);
@@ -1084,6 +1087,7 @@ nav {
   right: 5px;
   overflow: scroll;
 }
+
 
 nav li,
 .post-list li {
