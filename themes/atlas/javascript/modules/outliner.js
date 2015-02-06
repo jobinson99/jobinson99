@@ -14,7 +14,7 @@ $(document).ready(function(){
     $('.outline').hide();
     $('.right-middle-hook').click(function(){
       $('.outline').slideToggle();
-      $(this).toggleClass("active");
+        $(this).toggleClass("active");
     });
     
     //此部分为左侧底部的操作菜单
@@ -22,13 +22,12 @@ $(document).ready(function(){
   //为了兼容鼠标和触控，鼠标用悬浮弹出，触控用点击？
     $('.left-bottom-hook').click(function(){
 	$(this).toggleClass("active");
-
+        
 	$('.site-nav').slideToggle(function(){
 	    setTimeout(function(){
 		$(this).slideUp("slow");
 	    },5000);
 	});
-	
     });
     //触控设定
     

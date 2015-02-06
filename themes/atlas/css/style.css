@@ -555,7 +555,7 @@ h6:hover {
 
 h1 {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 10px;
     margin: 0;
 }
 h2,
@@ -610,6 +610,7 @@ h6 {
 .post-next {
     display: block;
     float: left;
+    content: none;
     
 }
 .post-pre {
@@ -1083,11 +1084,17 @@ nav {
   left: -5px;
 }
 .outline {
-  bottom: 8%; 
+  bottom: 8%;
   right: 5px;
   overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
+.site-nav,
+.outline {
+   
+}
 
 nav li,
 .post-list li {
@@ -1160,8 +1167,10 @@ nav li a:hover,
     .post-list li {
        diplay: block;
        float: left;
-       width: 49.5%;
-       border-left: 1px solid #dcdcdc;
+       
+       width: 49%;
+       height: 70px;
+       border: 1px solid #F5F4E0;
     }
     .post-list li a {
         height: 60px;
@@ -1292,16 +1301,8 @@ aside:hover {
 /*****************************************************************************/
 footer {
     font-size: 80%;
-    color: gray;
-    background-color: rgba(50,50,50,0.8);
-    margin-top: 1em;
-    width: 100%;
-    float: left;
-    position: relative;
-    
-    box-shadow: 0px 0 55px #000000;
-    -moz-box-shadow: 0px 0 55px #000000;
-    -webkit-box-shadow: 0px 0 55px #000000;
+    border-top: 10px dotted gray;
+    padding-top: 15px;
 }
 
 footer ul {
@@ -1311,14 +1312,19 @@ footer ul {
     padding: 0;
 }
 footer li {
+    width: 48%;
+    height: 70px;
     display: block;
-    width: 24%;
-    height: 50px;
     float: left;
-    border: 0;
+    position: relative;
+    border: 1px dotted white;
+    color: gray;
+    background-color: #eeeeee;
 }
+
 footer li:hover {
-    background-color: black;
+    background-color: #dcdcdc;
+    color: #303030;
 }
 
 footer li span {
