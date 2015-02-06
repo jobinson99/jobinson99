@@ -1208,10 +1208,19 @@ nav li a:hover,
     
 }
 
-.subject-vision {
-    
+.subject-vision li {
+    list-style: none;
+    margin-left: -40px;
+    padding: 0;
 }
-
+.subject-vision li a {
+        display: block;
+    padding: 10px 20px;
+    background: #eee;
+}
+.subject-vision li a:hover {
+    background-color: #6C71C4;
+}
 
 
 /*****************************************************************************/
