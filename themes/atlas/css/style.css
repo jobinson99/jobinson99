@@ -1091,9 +1091,16 @@ nav {
   overflow-y: auto;
 }
 
-.site-nav,
-.outline {
-   
+.site-nav li,
+.outline li {
+    margin-left: -40px;
+}
+
+.toc-h3 {
+    margin-left: 10px;
+}
+.toc-h4 {
+    margin-left: 20px;
 }
 
 nav li,
