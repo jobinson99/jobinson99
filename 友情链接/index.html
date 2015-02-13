@@ -114,7 +114,19 @@
   </div>
   
   <script type="text/javascript">
-   var mydomain = '{
+  function mydomain(sitename,siteurl){
+  this.sitename = sitename;
+  this.siteurl = siteurl;
+  }
+  mydomain.prototype.display = function (){
+  return '<iframe class="my-domain" src="http://' + this.siteurl + ">" + this.sitename + '</iframe>';
+  }
+  mydomain.prototype.showlink = function(){
+  return '<a href="http://' + this.siteurl + '">' + this.sitename + '</a>';
+  }
+  
+   var mydomainlist = {
+   
          "黑色一眸": "jobinson99.ga",
     "黑传说": "jobinson.ga",
     "爱编": "i-org.ga",
@@ -136,7 +148,7 @@
     "未来家": "weilai.ga",
     "吉诺家": "gino.ga",
     "爱编": "bian.ga",
-   }'
+   }
    
    $(document).on("pagecreate", function(){
 $.getJSON(".../my-domain.json", function(data) {
