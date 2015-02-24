@@ -254,9 +254,9 @@ article {
     -moz-column-rule: 1px solid white;
     -webkit-column-rule: 1px solid white;
         
-    column-gap: 35px;
-    -moz-column-gap: 35px;
-    -webkit-column-gap: 35px;
+    column-gap: 5px;
+    -moz-column-gap: 5px;
+    -webkit-column-gap: 5px;
 }
 
 
