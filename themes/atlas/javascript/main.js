@@ -19,7 +19,7 @@ require(['jquery', 'mathjax', 'toc', 'outliner'], function($) {
 
     console.log('Running jQuery %s', $().jquery);
 });
-    
+
 
 
 
