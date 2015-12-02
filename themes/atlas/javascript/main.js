@@ -3,7 +3,7 @@ require.config( {
     // 指代链接位置
     paths: {
         "jquery": "modules/jquery",
-    	"mathjax": "modules/MathJax",
+    	//"mathjax": "modules/MathJax",
         "toc": "modules/toc",
         "outliner": "modules/outliner"
     },
@@ -17,7 +17,6 @@ require.config( {
 
 require(['jquery', 'toc'], function($) {
 
-    console.log('Running jQuery %s', $().jquery);
     $(document).ready(function(){
     $('.site-action').hide();
     $('.right-bottom-hook').click(function(){

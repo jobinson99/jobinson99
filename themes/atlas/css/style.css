@@ -1087,7 +1087,7 @@ nav {
 }
 .outline {
   bottom: 8%;
-  right: 5px;
+  right: 0;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1114,11 +1114,13 @@ nav li a {
     display: block;
     padding: 10px 20px;
     background: #eee;
+    border-left: 5px solid white;
 }
 
 nav li a:hover,
 .post-list li a:hover {
     background-color: #6C71C4;
+    border-left: 5px solid yellow;
 }
 
 

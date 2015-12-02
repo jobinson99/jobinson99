@@ -63,7 +63,7 @@
     
   </ul>
 
-<h2>好友链接</h2>
+<h2 id="section-1">好友链接</h2>
 
 <ul class="post-list">
     <li><a href="http://jobinson.360doc.com">藏经阁——我的读网笔记</a></li>
@@ -77,7 +77,7 @@
     
   </ul>
 
-<h2 id="section-1">我的歌单</h2>
+<h2 id="section-2">我的歌单</h2>
 
 <p>```
 我的歌单2008-2015</p>
@@ -190,14 +190,17 @@ var mydomainlist = [
       "site": "zang.ga",
     },
    ];
-  
-$(document).on("pagecreate", function(){
+
+var listall = function() {
   for (i=0; i < mydomainlist.length; i++) {
     document.write('<iframe class="my-domain" src="http://' 
       + mydomainlist[i].site + ">" 
       + mydomainlist[i].name + '</iframe>');
   };
-}
+};
+
+// 待搞定
+
 </script>
 
 <!--   

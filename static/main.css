@@ -10,7 +10,8 @@
     overflow-y: hidden;
     overflow-x: auto;
     
-    height: 580px;
+    /* 用js使其对应屏幕高度 */ 
+    height: 570px;
     width: auto;
     
     -webkit-column-width: 580px;
