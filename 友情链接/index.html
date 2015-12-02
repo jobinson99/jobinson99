@@ -55,17 +55,17 @@
   </header>
 
   <article class="page-content">
-      <h2>公共关系</h2>
+    <h2 id="section">公共关系</h2>
 
-  <ul class="post-list">
+<ul class="post-list">
     <li><a href="http://mr6.cc">【台湾】刘威麟</a></li>
     <li><a href="http://lxxm.com">【马来西亚】理性选民</a></li>
     
   </ul>
 
-  <h2>好友链接</h2>
+<h2>好友链接</h2>
 
-  <ul class="post-list">
+<ul class="post-list">
     <li><a href="http://jobinson.360doc.com">藏经阁——我的读网笔记</a></li>
     <li><a href="http://jobinson.blog.sohu.com">我的搜狐老博客</a></li>
     <li><a href="http://jobinson99.blog.163.com">我的网易老博客</a></li>
@@ -77,11 +77,18 @@
     
   </ul>
 
-  <h2>我的歌单</h2>
+<h2 id="section-1">我的歌单</h2>
 
-  <pre>
-我的歌单2008-2014
+<p>```
+我的歌单2008-2015</p>
 
+<p>Enchantment Chris Spheeris
+卷珠帘 霍尊
+菩萨泪——念师恩 智坛
+吻你 哈琳
+红尘情歌 高安、黑鸭子
+我和春天有个约会 邝美云
+假如 梦然
 鬼迷心窍 李宗盛
 爱过的你 何洁
 两边 邰正宵、孟庭苇
@@ -104,32 +111,17 @@
 因为爱情
 千里之外 周杰伦、费玉清
 画心 张靓颖
-与世隔绝 王祖贤
-</pre>
+与世隔绝 王祖贤</p>
 
-  <h2 id="my-domain">我自己的链接</h2>
+<p>```</p>
 
-  <div id="test2">
+<h2 id="my-domain"><a href="#my-domain">我自己的链接</a></h2>
+
+<div id="test2">
   <ul class="test3"></ul>
   </div>
-  
-  <script type="text/javascript">
-  
-function mydomain(sitename,siteurl) {
-  this.sitename = sitename;
-  this.siteurl = siteurl;
-  };
-  // 直接显示
-  document.write( '<iframe class="my-domain" src="http://' 
-  + this.siteurl + ">" 
-  + this.sitename + '</iframe>' );
-  
-  // 链接形式
-  
-  mydomain.prototype.showlink = function(){
-  return '<a href="http://' + this.siteurl + '">' + this.sitename + '</a>';
-  }
 
+<script type="text/javascript">
 var mydomainlist = [
     { "name": "互动久久",
       "site": "991080.ga",
@@ -198,14 +190,33 @@ var mydomainlist = [
       "site": "zang.ga",
     },
    ];
-   
-for (i=0; i < mydomainlist.length; i++) {
-  document.write('<iframe class="my-domain" src="http://' 
-  + mydomainlist[i].site + ">" 
-  + mydomainlist[i].name + '</iframe>');
-}   
-   
-   
+  
+$(document).on("pagecreate", function(){
+  for (i=0; i < mydomainlist.length; i++) {
+    document.write('<iframe class="my-domain" src="http://' 
+      + mydomainlist[i].site + ">" 
+      + mydomainlist[i].name + '</iframe>');
+  };
+}
+</script>
+
+<!--   
+ <script> 
+function mydomain(sitename,siteurl) {
+  this.sitename = sitename;
+  this.siteurl = siteurl;
+  };
+  // 直接显示
+  document.write( '<iframe class="my-domain" src="http://' 
+  + this.siteurl + ">" 
+  + this.sitename + '</iframe>' );
+  
+  // 链接形式
+  
+  mydomain.prototype.showlink = function(){
+  return '<a href="http://' + this.siteurl + '">' + this.sitename + '</a>';
+  }
+ 
    $(document).on("pagecreate", function(){
 $.getJSON(".../my-domain.json", function(data) {
        var items = data.table;
@@ -222,7 +233,7 @@ $.getJSON(".../my-domain.json", function(data) {
    });
 });
   </script>
-  
+-->
 
   </article>  
 

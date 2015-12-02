@@ -50,32 +50,83 @@
       
       <h2 id="section">一处刷新 需要养定的域名</h2>
 
-<iframe class="my-domain" src="http://991080.ga"></iframe>
-<iframe class="my-domain" src="http://bian.ga"></iframe>
-<iframe class="my-domain" src="http://cang.ga"></iframe>
-<iframe class="my-domain" src="http://chong.ga"></iframe>
-<iframe class="my-domain" src="http://cong.ga"></iframe>
-<iframe class="my-domain" src="http://gagi.ga"></iframe>
-<iframe class="my-domain" src="http://geng.ga"></iframe>
-<iframe class="my-domain" src="http://gino.ga"></iframe>
-<iframe class="my-domain" src="http://huiwu.ga"></iframe>
-<iframe class="my-domain" src="http://i-org.ga"></iframe>
-<iframe class="my-domain" src="http://i-pet.ga"></iframe>
-<iframe class="my-domain" src="http://jobinson.ga"></iframe>
-<iframe class="my-domain" src="http://jobinson99.ga"></iframe>
-<iframe class="my-domain" src="http://meiti.ga"></iframe>
-<iframe class="my-domain" src="http://n-n-n.ga"></iframe>
-<iframe class="my-domain" src="http://neng.ga"></iframe>
-<iframe class="my-domain" src="http://nong.ga"></iframe>
-<iframe class="my-domain" src="http://shang.ga"></iframe>
-<iframe class="my-domain" src="http://sodis.ga"></iframe>
-<iframe class="my-domain" src="http://weilai.ga"></iframe>
-<iframe class="my-domain" src="http://wiii.ga"></iframe>
-<iframe class="my-domain" src="http://zang.ga"></iframe>
-
 <script type="text/javascript">
-
-
+var mydomainlist = [
+    { "name": "互动久久",
+      "site": "991080.ga",
+    },
+    { "name": "爱编",
+      "site": "bian.ga",
+    },
+    { "name": "藏",
+      "site": "cang.ga",
+    },
+    { "name": "宠",
+      "site": "chong.ga",
+    },
+    { "name": "从",
+      "site": "cong.ga",
+    },
+    { "name": "自己",
+      "site": "gagi.ga",
+    },
+    { "name": "羹",
+      "site": "geng.ga",
+    },
+    { "name": "吉诺家",
+      "site": "gino.ga",
+    },
+    { "name": "慧悟",
+      "site": "huiwu.ga",
+    },
+    { "name": "爱编",
+      "site": "i-org.ga",
+    },
+    { "name": "爱宠",
+      "site": "i-pet.ga",
+    },
+    { "name": "黑传说",
+      "site": "jobinson.ga",
+    },
+    { "name": "黑色一眸",
+      "site": "jobinson99.ga",
+    },
+    { "name": "媒体",
+      "site": "meiti.ga",
+    },
+    { "name": "无限思维",
+      "site": "n-n-n.ga",
+    },
+    { "name": "能",
+      "site": "neng.ga",
+    },
+    { "name": "侬",
+      "site": "nong.ga",
+    },
+    { "name": "尚",
+      "site": "shang.ga",
+    },
+    { "name": "是么",
+      "site": "sodis.ga",
+    },
+    { "name": "未来家",
+      "site": "weilai.ga",
+    },   
+    { "name": "威",
+      "site": "wiii.ga",
+    },
+    { "name": "藏嘎",
+      "site": "zang.ga",
+    },
+   ];
+  
+$(document).on("pagecreate", function(){
+  for (i=0; i < mydomainlist.length; i++) {
+    document.write('<iframe class="my-domain" src="http://' 
+      + mydomainlist[i].site + ">" 
+      + mydomainlist[i].name + '</iframe>');
+  };
+}
 </script>
 
 
