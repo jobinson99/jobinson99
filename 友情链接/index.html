@@ -114,41 +114,97 @@
   </div>
   
   <script type="text/javascript">
-  function mydomain(sitename,siteurl){
+  
+function mydomain(sitename,siteurl) {
   this.sitename = sitename;
   this.siteurl = siteurl;
-  }
-  mydomain.prototype.display = function (){
-  return '<iframe class="my-domain" src="http://' + this.siteurl + ">" + this.sitename + '</iframe>';
-  }
+  };
+  // 直接显示
+  document.write( '<iframe class="my-domain" src="http://' 
+  + this.siteurl + ">" 
+  + this.sitename + '</iframe>' );
+  
+  // 链接形式
+  
   mydomain.prototype.showlink = function(){
   return '<a href="http://' + this.siteurl + '">' + this.sitename + '</a>';
   }
-  
-   var mydomainlist = {
+
+var mydomainlist = [
+    { "name": "互动久久",
+      "site": "991080.ga",
+    },
+    { "name": "爱编",
+      "site": "bian.ga",
+    },
+    { "name": "藏",
+      "site": "cang.ga",
+    },
+    { "name": "宠",
+      "site": "chong.ga",
+    },
+    { "name": "从",
+      "site": "cong.ga",
+    },
+    { "name": "自己",
+      "site": "gagi.ga",
+    },
+    { "name": "羹",
+      "site": "geng.ga",
+    },
+    { "name": "吉诺家",
+      "site": "gino.ga",
+    },
+    { "name": "慧悟",
+      "site": "huiwu.ga",
+    },
+    { "name": "爱编",
+      "site": "i-org.ga",
+    },
+    { "name": "爱宠",
+      "site": "i-pet.ga",
+    },
+    { "name": "黑传说",
+      "site": "jobinson.ga",
+    },
+    { "name": "黑色一眸",
+      "site": "jobinson99.ga",
+    },
+    { "name": "媒体",
+      "site": "meiti.ga",
+    },
+    { "name": "无限思维",
+      "site": "n-n-n.ga",
+    },
+    { "name": "能",
+      "site": "neng.ga",
+    },
+    { "name": "侬",
+      "site": "nong.ga",
+    },
+    { "name": "尚",
+      "site": "shang.ga",
+    },
+    { "name": "是么",
+      "site": "sodis.ga",
+    },
+    { "name": "未来家",
+      "site": "weilai.ga",
+    },   
+    { "name": "威",
+      "site": "wiii.ga",
+    },
+    { "name": "藏嘎",
+      "site": "zang.ga",
+    },
+   ];
    
-         "黑色一眸": "jobinson99.ga",
-    "黑传说": "jobinson.ga",
-    "爱编": "i-org.ga",
-    "自己": "gagi.ga",
-    "慧悟": "huiwu.ga",
-    "互动久久": "991080.ga",
-    "无限思维": "n-n-n.ga",
-    "媒体": "meiti.ga",
-    "尚": "shang.ga",
-    "侬": "nong.ga",
-    "能": "neng.ga",
-    "藏": "cang.ga",
-    "羹": "geng.ga",
-    "威": "wiii.ga",
-    "是么": "sodis.ga",
-    "从": "cong.ga",
-    "宠": "chong.ga",
-    "爱宠": "i-pet.ga", 
-    "未来家": "weilai.ga",
-    "吉诺家": "gino.ga",
-    "爱编": "bian.ga",
-   }
+for (i=0; i < mydomainlist.length; i++) {
+  document.write('<iframe class="my-domain" src="http://' 
+  + mydomainlist[i].site + ">" 
+  + mydomainlist[i].name + '</iframe>');
+}   
+   
    
    $(document).on("pagecreate", function(){
 $.getJSON(".../my-domain.json", function(data) {
