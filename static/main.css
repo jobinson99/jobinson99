@@ -11,12 +11,12 @@
     overflow-x: auto;
     
     /* 用js使其对应屏幕高度 */ 
-    height: 600px;
+    height: 570px;
     width: auto;
     
-    -webkit-column-width: 580px;
-    -moz-column-width: 580px;
-    column-width: 580px;
+    -webkit-column-width: 520px;
+    -moz-column-width: 520px;
+    column-width: 520px;
     
     -webkit-column-rule: 20px solid #9F9F92;
     -moz-column-rule: 20px solid #9F9F92;
