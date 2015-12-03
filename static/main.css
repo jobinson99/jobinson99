@@ -11,7 +11,7 @@
     overflow-x: auto;
     
     /* 用js使其对应屏幕高度 */ 
-    height: 570px;
+    height: 600px;
     width: auto;
     
     -webkit-column-width: 580px;
