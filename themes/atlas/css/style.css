@@ -1320,8 +1320,8 @@ aside:hover {
 /*
 /*****************************************************************************/
 footer {
-    font-size: 80%;
-    border-top: 10px dotted gray;
+    font-size: 90%;
+    border-top: 10px dotted #cccccc;
     padding-top: 15px;
 }
 
@@ -1332,11 +1332,12 @@ footer ul {
     padding: 0;
 }
 footer li {
-    width: 48%;
+    width: 43%;
     height: 70px;
     display: block;
     float: left;
     position: relative;
+    padding: 15px;
     border: 1px dotted white;
     color: gray;
     background-color: #eeeeee;
